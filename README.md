@@ -36,10 +36,10 @@ Step 4: Set the Box Client ID and Client Secret that you obtain from [creating a
 Step 5: Launch a BOXSharedLinkViewController
 ```objectivec
 BOXContentClient *contentClient = [BOXContentClient defaultClient];
-BOXSharedLinkViewController *sharedLinkViewController = [[BOXSharedLinkViewController alloc] initWithContentClient:conentClient fileID:@"123"];
+BOXSharedLinkViewController *sharedLinkViewController = [[BOXSharedLinkViewController alloc] initWithContentClient:contentClient fileID:@"123"];
 
 // You must push it to a UINavigationController (i.e. do not 'presentViewController')
-UINavigationController navigationController = [[UINavigationController alloc] initWithRootViewController:sharedLinkViewController];
+UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:sharedLinkViewController];
 [self presentViewController:navigationController animated:YES completion:nil];
 ```
 
