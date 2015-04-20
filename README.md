@@ -45,7 +45,7 @@ UINavigationController *navigationController = [[UINavigationController alloc] i
 
 Sample App
 ----------
-A sample app can be found in the [BoxShareSDKSampleApp](../../tree/dev/BoxShareSDKSampleApp) folder. To execute the sample app:
+A sample app can be found in the [BoxShareSDKSampleApp](../../tree/master/BoxShareSDKSampleApp) folder. To execute the sample app:
 Step 1: Install Pods
 ```
 cd BoxShareSDKSampleApp
