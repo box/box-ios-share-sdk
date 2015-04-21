@@ -30,7 +30,8 @@
 
 - (IBAction)start:(id)sender
 {
-    [BOXContentClient setClientID:@"1vyz7z7abi0ic3j3cvto0tj43og52ksx" clientSecret:@"15epGRyzmTnhlWOmEekJLY4SD2ZKWgsE"];
+#error Set the client ID and client secret that can be retrieved by creating an application at http://developers.box.com
+    [BOXContentClient setClientID:@"client_id" clientSecret:@"client_secret"];
     BOXContentClient *client = [BOXContentClient defaultClient];
     [client authenticateWithCompletionBlock:^(BOXUser *user, NSError *error) {
         if (error == nil) {

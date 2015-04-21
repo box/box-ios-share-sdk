@@ -59,9 +59,10 @@
         }
     }];
 
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(invite:)];
-    UIBarButtonItem *share = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(share:)];
-    self.navigationItem.rightBarButtonItems = @[item, share];
+    UIBarButtonItem *invite = [[UIBarButtonItem alloc] initWithTitle:@"Invite" style:UIBarButtonItemStyleBordered target:self action:@selector(invite:)];
+    UIBarButtonItem *share = [[UIBarButtonItem alloc] initWithTitle:@"Share" style:UIBarButtonItemStyleBordered target:self action:@selector(share:)];
+
+    self.navigationItem.rightBarButtonItems = @[invite, share];
 }
 
 - (void)viewWillAppear:(BOOL)animated
