@@ -18,7 +18,6 @@ Quickstart
 ----------
 Step 1: Add to your Podfile
 ```
-source 'https://github.com/box/box-ios-podspecs.git'
 pod 'box-ios-share-sdk'
 ```
 Step 2: Install
