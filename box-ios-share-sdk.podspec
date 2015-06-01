@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # Root specification
 
 s.name                  = "box-ios-share-sdk"
-s.version               = "1.0.0"
+s.version               = "1.0.1"
 s.summary               = "iOS Share SDK."
 s.homepage              = "https://github.com/box/box-ios-share-sdk"
 s.license               = { :type => "Apache 2.0", :file => "LICENSE" }
@@ -26,7 +26,7 @@ s.preserve_paths = 'BoxShareSDK.framework'
 s.requires_arc          = true
 #s.ios.header_dir        = "BOXShareSDK"
 
-s.dependency 'box-ios-content-sdk'
+s.dependency 'box-ios-sdk'
 
 s.resource_bundle = {
   'BoxShareSDKResources' => [
