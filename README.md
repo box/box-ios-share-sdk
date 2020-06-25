@@ -3,11 +3,11 @@
 Box iOS Share SDK
 ===================
 
-This SDK allows you to show UI that allows users to view collaborators for their folders or create shared links for their items on BOX.
+##Note:
 
-<img src="https://cloud.box.com/shared/static/3n48d1ni4ypeo1qpqhd85hotmpyorlgo.png" width="200"/>
-<img src="https://cloud.box.com/shared/static/udcf54nt2wq39i6d3wjg2f7czcnlbqpo.png" width="200"/>
-<img src="https://cloud.box.com/shared/static/tv6htc9ls4k2fbwkajh5icn7mmp259xj.png" width="200"/>
+- The Box iOS Share SDK is in **Maintenance** mode. This means only critical bugs will be patched. However, new functionality and additional bug fixes may be added on occasion based on customer demand, but should not be expected.
+
+This SDK allows you to show UI that allows users to view collaborators for their folders or create shared links for their items on BOX.
 
 Developer Setup
 ---------------
